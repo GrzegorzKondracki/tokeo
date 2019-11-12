@@ -1,0 +1,99 @@
+.container {
+    margin: 50px 15px;
+}
+
+.menu {
+    margin-top: 15px;
+}
+
+.burger {
+    right: 15px;
+    top: 32px;
+}
+
+.wrap.container {
+    margin-top: 60px;
+}
+
+.first-section .wrap h2 {
+    margin-bottom: 20px;
+}
+
+.register {
+    display: flex;
+    flex-direction: column;
+    background: none;
+    border: none;
+    align-items: flex-start;
+}
+
+.register .email {
+    line-height: 24px;
+    border: 1px solid #1C3868;
+    height: 17px;
+    font-size: 13px;
+    margin: 24px 0px;
+}
+
+.submit {
+    width: 242px;
+    margin-right: 0;
+    line-height: 24px;
+}
+
+
+/* .brands-box {
+    margin-top: 35%;
+} */
+
+/* Second section  */
+.second-section .idea-text {
+    margin-top: 60px;
+}
+
+
+.second-section .img {
+    margin-top: -50px;
+}
+
+/* Third-section  */
+.why-text {
+    width: auto;
+    margin: 0 15px;
+}
+
+
+/* Fourth section  */
+
+
+
+/* Footer  */
+.wrap-footer {
+    padding: 62px 15px 63px;
+}
+
+.footer-menu ul {
+    flex-wrap: wrap;
+}
+
+.footer-menu ul li {
+    margin-top: 10px;
+    flex-basis: 50%
+}
+
+
+.footer .register {
+    height: 100%;
+}
+
+.email.error {
+    border: 2px solid #F23C2B;
+}
+
+.email.valid {
+    border: 2px solid #cddc39;
+}
+
+.submit-btn2 {
+    margin-top: -6px;
+}

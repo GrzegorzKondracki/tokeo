@@ -1,0 +1,203 @@
+.container {
+    margin: 50px 30px;
+}
+
+.menu {
+    margin-top: 35px;
+}
+
+.burger {
+    right: 30px;
+}
+
+.first-section .wrap {
+    width: auto;
+    margin-top: 105px;
+}
+
+.first-section .wrap h1 {
+    font-size: 30px;
+}
+
+.first-section .wrap h2 {
+    max-width: 555px;
+    width: auto;
+}
+
+.register {
+    display: flex;
+    flex-direction: column;
+    background: none;
+    border: none;
+    align-items: flex-start;
+}
+
+.register .email {
+    margin: 24px 20px;
+    border: 1px solid #1C3868;
+}
+
+
+
+
+
+.register-btn2,
+.submit-btn2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 15px;
+    font-family: 'Gotham-Light';
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1.1px;
+
+    background: #F23C2B;
+    border-radius: 22px;
+    width: 274px;
+    height: 41px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    outline: none;
+    border: none;
+}
+
+.register-btn2::after,
+.submit-btn2::after {
+    content: '';
+    z-index: -1;
+    background-color: hsla(0, 0%, 100%, 0.2);
+    position: absolute;
+    top: -130%;
+    bottom: -50%;
+    width: 1.25em;
+    transform: translate3d(-1000%, 0, 0) rotate(35deg);
+}
+
+.register-btn2:hover::after,
+.submit-btn2:hover::after {
+    transition: transform 0.45s ease-in-out;
+    transform: translate3d(1200%, 0, 0) rotate(35deg);
+}
+
+
+.brands-box {
+    margin-top: 10%;
+}
+
+
+/* Second section  */
+.second-section .idea-text {
+    margin-top: 50px;
+}
+
+.idea-text h3 {
+    font-size: 30px;
+}
+
+
+/* Third section  */
+.third-section {
+    min-width: auto;
+}
+
+.why-text {
+    width: auto;
+    margin: 0 30px;
+}
+
+.why-text h3 {
+    width: auto;
+    font-size: 30px;
+}
+
+
+/* Four section  */
+.app-text h3 {
+    font-size: 30px;
+}
+
+
+.fourth-section .wrap {
+    flex-direction: column;
+    margin: 97px 30px 0 30px;
+}
+
+
+.fourth-section .buttons {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+.google-play-btn {
+    margin-bottom: 15px;
+}
+
+
+
+.fourth-section .app-img img {
+    width: 100%;
+}
+
+/* Footer  */
+.wrap-footer {
+    padding: 62px 30px 125px;
+}
+
+
+.footer-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo {
+    margin-top: 63px;
+}
+
+.footer-menu ul {
+    justify-content: space-between;
+}
+
+.footer-menu ul li:nth-child(1),
+.footer-menu ul li:nth-child(2),
+.footer-menu ul li:nth-child(3),
+.footer-menu ul li:nth-child(4) {
+    margin-right: auto;
+}
+
+input[type=submit] {
+    overflow: inherit;
+    width: 272px;
+    min-height: 41px;
+    height: 41px;
+}
+
+.register .email {
+    margin: 24px 20px 24px 0;
+}
+
+.register label {
+    margin-left: 10px;
+    top: 0;
+}
+
+.email.error {
+    border: 2px solid #F23C2B;
+}
+
+.email.valid {
+    border: 2px solid #cddc39;
+}
+
+
+.submit-btn {
+    display: none;
+}
